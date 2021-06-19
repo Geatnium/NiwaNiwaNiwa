@@ -37,8 +37,6 @@ UIデザインに使用
 ### [ObjFileWriter](https://github.com/hiryma/UnitySamples/blob/master/ProceduralMesh/Assets/Kayac/Graphics/ObjFileWriter.cs)
 ベイクしたメッシュをObjファイル化するために使用  
 The MIT License (MIT) (c) 2018 hirayama takashi. (c) 2018 KAYAC Inc.
-### [Google Fonts](https://fonts.google.com/)
-フォントを使用
 ### [DOVA-SYNDROME](https://dova-s.jp/)
 BGMを使用
 ### [効果音ラボ](https://soundeffect-lab.info/)
