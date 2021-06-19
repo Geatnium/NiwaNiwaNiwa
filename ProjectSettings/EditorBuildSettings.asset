@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Gito/Scene/Title.unity
+    guid: c265e0781df62490aaece61b01859116
+  - enabled: 1
+    path: Assets/Gito/Scene/OnlineLobby.unity
+    guid: c7904cf08c4b54e1a9495a04ebfec6ce
+  - enabled: 1
+    path: Assets/Gito/Scene/MainSmall.unity
+    guid: 3344d1f08ba3a47f0a39ae74310a35ae
+  - enabled: 1
+    path: Assets/Gito/Scene/Result.unity
+    guid: d6c4cade13e1e4186af75d62fcfae412
+  m_configObjects: {}
