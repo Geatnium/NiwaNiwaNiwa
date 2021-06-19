@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: SetIsEnableFalse
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"SetIsEnable(False)","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":318.0,"y":-28.0},"guid":"d6cdf8e4-71a7-4ae9-b2c6-e3758c66124d","$version":"A","$type":"Bolt.TriggerStateTransition","$id":"9"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"SetIsEnable","$type":"System.String"}},"position":{"x":-460.0,"y":-51.0},"guid":"cb06e868-2de3-4826-8ae0-b1c032ab5294","$version":"A","$type":"Bolt.CustomEvent","$id":"11"},{"defaultValues":{},"position":{"x":58.0,"y":-48.0},"guid":"97b58057-62fa-41da-9310-f2be1e3f5c9b","$version":"A","$type":"Bolt.Branch","$id":"13"},{"kind":"Object","defaultValues":{"name":{"$content":"IsEnable","$type":"System.String"},"object":null},"position":{"x":-171.0,"y":-52.0},"guid":"50375dbb-691d-43b9-bc4c-d8a26fafc1eb","$version":"A","$type":"Bolt.SetVariable","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"9"},"destinationKey":"trigger","guid":"f6eb5051-4c86-4136-841c-5d4f898d564c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"250f0dab-a23f-4f1f-9beb-fdc5067f897f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"assigned","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"49a5dbe5-9d6c-4efd-bb25-4b83d409ae96","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"argument_0","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"9defa153-25ca-472f-8142-09552ae3b585","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"condition","guid":"f27ef9f0-e12b-427a-b412-3a9639e4544b","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
